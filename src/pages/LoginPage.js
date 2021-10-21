@@ -1,33 +1,32 @@
 import React from 'react';
+import imagen from '../assets/login.PNG';
 
 export const LoginPage = () => {
     return (
-        <form className="form-horizontal form-material"
-        autoComplete="off">
-            <h3 className="text-center">Iniciar Seccion</h3>
-                  
-            <div className="form-group m-t-40">
-                <div className="col-xs-12">
-                    <label className="form-label"> Correo </label>
-                    <input className="form-control" 
-                           type="email"></input>
-                </div>
+        <div className="row g-0">
+            <div className="col-lg-7">
+            {/* <img class="img-fluid Login-component"></img> */}
+            <img src="https://i.ibb.co/1snP4R3/Group-94.png" class="img-fluid"  ></img>
             </div>
+            <div className="col-lg-5 d-flex flex-column align-items-end min-vh-100">
+                <div className="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
+                    <h1 className=" mb-4 text-center titulo">Iniciar sección</h1>
+                    <form className="mb-5">
+                        <div className="mb-4">
+                            <label className="form-label">Correo</label>
+                            <input type="email" className="form-control" placeholder="Ingrese su correo"></input>
+                        </div>
+                        <div className="mb-4">
+                            <label className="form-label">Contraseña</label>
+                            <input type="password" className="form-control"></input>
 
-            <div className="form-group">
-                <div className="col-xs-12">
-                <label className="form-label"> Contraseña </label>
-                    <input className="form-control" 
-                           type="password"></input>
-                </div>
-            </div>
-            
-            <div class="form-group text-center m-t-20">
-                <div class="col-xs-12">
-                    <button class="btn btn-info btn-lg btn-block  btn-rounded" type="submit">Log In</button>
-                </div>
-            </div>
+                        </div>
+                        <button type="submit" className="btn btn-success w-100">Iniciar sección</button>
 
-        </form>
+                    </form>
+                </div>
+
+            </div>
+        </div>
     )
 }

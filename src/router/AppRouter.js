@@ -17,12 +17,14 @@ export const AppRouter = () => {
     return (
         <Router>
             <div>
-                <Switch>
-                    <Route path="/auth" component={ AuthRouter } />
-                    <Route exact path="/user" component={ UserPage } />
-                    <Route exact path="/" component={ ChatPage } />
-                    <Redirect to="/"/>
-                </Switch>
+                <section>
+                    <Switch>
+                        <Route path="/auth" component={ AuthRouter } />
+                        <Route exact path="/user" component={ UserPage } />
+                        <Route exact path="/" component={ ChatPage } />
+                        <Redirect to="/"/>
+                    </Switch>
+                </section>
             </div>
         </Router>
     )
