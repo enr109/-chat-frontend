@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+.login-register {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    padding: 10% 0;
+    position: fixed; }
+
+.login-box {
+    width: 400px;
+    margin: 0 auto; 
+}
+.login-box .footer {
+    width: 100%;
+    left: 0px;
+    right: 0px; 
+}
+.login-box .social {
+    display: block;
+    margin-bottom: 30px; 
+}
+      
+#recoverform {
+    display: none; 
+}
+
+.login-sidebar {
+    padding: 0px;
+    margin-top: 0px; 
+}
+.login-sidebar .login-box 
+{
+right: 0px;
+position: absolute;
+height: 100%; 
+}
+
+/* input  */
+
+.form-material .form-control{
+    background-color: transparent;
+    min-height: 38px;
+}
+
+.form-control {
+    color: #67757c;
+    min-width: 38px;
+    display: initial;
+    border-radius: 60px;
+}
+
+.form-control-sm {
+    min-height: 20px; }
+
+/* Botones  */
+.btn-rounded.btn-lg {
+    padding: .75rem 1.5rem;
+}
+
+.btn-rounded {
+    border-radius: 60px;
+
+}
+
+.btn-block{
+    display: block;
+    width: 100%;
+}
+
+/*******************
+Labels
+*******************/
+.label {
+    padding: 3px 10px;
+    line-height: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    border-radius: 4px;
+    font-size: 75%; }
