@@ -1,0 +1,157 @@
+/* ChatSelect */
+.middle-screen {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    width: 60%;
+    text-align: center;
+}
+
+
+
+.navbar {
+    background-color: #20CC81;
+}
+
+.imagen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35%;
+}
+
+
+.nombre{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tel{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+
+.mesgs {
+    float: left;
+    padding: 40px 0px 0 25px;
+    width: 100%;
+    height: 100vh;
+    background-color: #F3F4F8;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%; */
+}
+
+.msg_history {
+    /* margin-left: auto;
+    margin-right: auto; */
+    height: 90%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.incoming_msg_img {
+    display: inline-block;
+    width: 6%;
+}
+
+.outgoing_msg {
+    overflow: hidden;
+    margin: 26px 0 26px;
+}
+
+.received_msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+
+.received_withd_msg p {
+    background: #FFFFFF none repeat scroll 0 0;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.time_date {
+    color: #747474;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+
+.sent_msg p {
+    background: #ECFFF7 none repeat scroll 0 0;
+    border-radius: 15px;
+    font-size: 14px;
+    margin: 0;
+    color: #000000;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+.sent_msg {
+    float: right;
+    width: 46%;
+}
+
+.input_msg_write input {
+    margin-top: 1%;
+    background: rgb(255, 254, 254) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 30px;
+    color: #4c4c4c;
+    font-size: 15px;
+    min-height: 48px;
+    width: 100%;
+}
+
+.type_msg {
+    border-top: 1px solid #c4c4c4;
+    position: relative;
+}
+
+.search-bar:focus, .write_msg:focus {
+    outline: none;
+}
+
+.msg_send_btn {
+    background: #a2f5d1 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    height: 40px;
+    width: 40px;
+}
+
+.iconom{
+    width: 100%;
+}
+
+.div1{
+    background: #ECFFF7 none repeat scroll 0 0;
+}
+
+.contl{
+    
+}
+
+
+/* .nombre,.tel {
+    color: black;
+    display: block;
+    font-family: Montserrat;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+} */

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Redirect, Route, Switch } from 'react-router';
 import { LoginPage } from '../pages/LoginPage';
-import '../css/login2.css';
+import '../css/login.css';
 
 
 export const AuthRouter = () => {

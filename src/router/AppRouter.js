@@ -5,8 +5,6 @@ import {
     Route,
     Redirect
   } from 'react-router-dom';
-
-
 import { ChatPage } from '../pages/ChatPage';
 import { UserPage } from '../pages/UserPage';
 import { AuthRouter } from './AuthRouter';
