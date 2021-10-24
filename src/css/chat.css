@@ -142,8 +142,20 @@
     background: #ECFFF7 none repeat scroll 0 0;
 }
 
-.contl{
-    
+div.chatimg{
+    width: 100%;
+    margin: 10px auto;
+    background-color:#ECFFF7;
+    padding: 25px;
+}
+
+div.chatimg img.izquierda {
+    float: left;
+    margin-right: 15px;
+}
+
+div.reset {
+    clear: both;
 }
 
 

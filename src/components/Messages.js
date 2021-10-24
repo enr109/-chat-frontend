@@ -1,5 +1,6 @@
 import React from 'react';
 import { IncomingMessage } from './IncomingMessage';
+import { Navbar } from './Navbar';
 import { OutgoingMessage } from './OutgoingMessage';
 import { SendMessage } from './SendMessage';
 
@@ -8,6 +9,8 @@ export const Messages = () => {
     const msgs = [1,2,3,4,5,6,7,8,9,10];
 
     return (
+        <div>
+            <Navbar/>
         <div className="mesgs">
 
             {/* <!-- Historia inicio --> */}
@@ -31,6 +34,7 @@ export const Messages = () => {
 
            <SendMessage />
 
+        </div>
         </div>
     )
 }

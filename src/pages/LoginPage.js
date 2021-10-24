@@ -46,7 +46,7 @@ export const LoginPage = () => {
         <div className="row g-0">
             <div className="col-lg-7">
             {/* <img class="img-fluid Login-component"></img> */}
-            <img src="https://i.ibb.co/1snP4R3/Group-94.png" class="img-fluid"/>
+            <img class="img-fluid" src="https://i.ibb.co/1snP4R3/Group-94.png" />
             </div>
             <div className="col-lg-5 d-flex flex-column align-items-end min-vh-100">
                 <div className="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
