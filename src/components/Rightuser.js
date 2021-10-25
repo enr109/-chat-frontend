@@ -1,31 +1,31 @@
-import React from 'react'
+import React ,{ useContext } from 'react';
+import { AuthContext } from '../auth/AuthContext';
 
 export const Rightuser = () => {
+    const { auth } = useContext( AuthContext);
     return (
-        <div className="col-lg-2 d-none d-sm-block">
-            <img src="https://i.ibb.co/1KqkKvW/Oval-1.png" alt="" width="170" height="170" className="imagen"/>
+        <div className="col-lg-2 d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+            <img src={ auth.image } alt="" width="170" height="170" className="imagen"/>
             <div className="text-center">
-                <p className="card-text nombre">Alejandro Garcia1</p>
-                <p className="card-text tel">5520260240</p>
+                <p className="card-text nombre">{ auth.name }</p>
+                <p className="card-text tel">{ auth.tel }</p>
             </div>
             <div className="div1">
                 <p className="nombre card-text">Datos del contacto</p>
             </div>
             <div>
-                <label class="form-label mt-3 Datos">Notas</label>
-                <p className="contl">Buen Prospecto</p>
                 <label class="form-label">Edad</label>
-                <p className="contl">38</p>
+                <p className="contl">{ auth.age }</p>
                 <label class="form-label">Correo</label>
-                <p className="contl">luc@gmail</p>
+                <p className="contl">{ auth.email }</p>
                 <label class="form-label">Prioridad</label>
-                <p className="contl">Alta</p>
+                <p className="contl">{ auth.priority }</p>
                 <label class="form-label">Problemas</label>
-                <p className="contl">Informes</p>
+                <p className="contl">{ auth.problem }</p>
                 <label class="form-label ">Promocion</label>
-                <p className="contl">Cerrar Venta</p>
+                <p className="contl">{ auth.promotion }</p>
                 <label class="form-label ">CURP</label>
-                <p className="contl">UIWDHIDW983DU9D398UD</p>
+                <p className="contl">{ auth.curp }</p>
 
             </div>
         </div>

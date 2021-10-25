@@ -9,6 +9,13 @@ import { fetchConToken, fetchSinToken } from "../helpers/fetch";
      logged: false,
      name: null,
      email: null,
+     tel: null,
+     image: null,
+     age: null,
+     priority: null,
+     problem: null,
+     promotion: null,
+     curp: null,
  };
 
 
@@ -32,6 +39,13 @@ import { fetchConToken, fetchSinToken } from "../helpers/fetch";
                 logged: true,
                 name: usuario.nombre,
                 email: usuario.email,
+                tel: usuario.telefono,
+                image: usuario.imagen,
+                age: usuario.edad,
+                priority: usuario.prioridad,
+                problem: usuario.problema,
+                promotion: usuario.promocion,
+                curp: usuario.curp,
             });
 
             console.log('Autenticado!');
@@ -51,6 +65,13 @@ import { fetchConToken, fetchSinToken } from "../helpers/fetch";
                 logged: false,
                 name: null,
                 email: null,
+                tel: null,
+                image: null,
+                age: null,
+                priority: null,
+                problem: null,
+                promotion: null,
+                curp: null,
             })
             return false;
         }
@@ -67,6 +88,13 @@ import { fetchConToken, fetchSinToken } from "../helpers/fetch";
                 logged: true,
                 name: usuario.nombre,
                 email: usuario.email,
+                tel: usuario.telefono,
+                image: usuario.imagen,
+                age: usuario.edad,
+                priority: usuario.prioridad,
+                problem: usuario.problema,
+                promotion: usuario.promocion,
+                curp: usuario.curp,
             });
 
             console.log('Autenticado!');
@@ -78,6 +106,13 @@ import { fetchConToken, fetchSinToken } from "../helpers/fetch";
                 logged: false,
                 name: null,
                 email: null,
+                tel: null,
+                image: null,
+                age: null,
+                priority: null,
+                problem: null,
+                promotion: null,
+                curp: null,
             });
 
             return false;

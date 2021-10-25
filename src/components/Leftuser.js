@@ -9,7 +9,7 @@ export const Leftuser = () => {
     const { auth } = useContext( AuthContext);
     
     const { uid } = auth;
-    console.log( uid)
+    
 
     
     return (

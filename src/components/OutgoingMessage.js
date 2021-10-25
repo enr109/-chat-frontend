@@ -4,6 +4,9 @@ import { horaMes } from '../helpers/horaMes';
 export const OutgoingMessage = ({msg}) => {
     return (
         <div className="outgoing_msg">
+            <div className="outgoing_msg_img">
+                <img src={msg.de.imagen}   className="iconom"/>
+            </div>
             <div className="sent_msg">
                 <p>{msg.mensaje}</p>
                 <span className="time_date">{horaMes(msg.createdAt)}</span>

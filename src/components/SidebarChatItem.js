@@ -39,7 +39,7 @@ export const SidebarChatItem = ({ usuario })  => {
                     {
                         ( usuario.online ) 
                             ? <span className="text-success">Online</span>
-                            : <span className="text-success">Offline</span>
+                            : <span className="text-danger">Offline</span>
                     }
                 </div>
                 <div 

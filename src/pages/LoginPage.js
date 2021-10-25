@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { AuthContext } from '../auth/AuthContext';
 import Swal from 'sweetalert2';
 
@@ -45,8 +45,7 @@ export const LoginPage = () => {
 
         <div className="row g-0">
             <div className="col-lg-7">
-            {/* <img class="img-fluid Login-component"></img> */}
-            <img class="img-fluid" src="https://i.ibb.co/1snP4R3/Group-94.png" />
+                <img class="img-fluid" src="https://i.ibb.co/1snP4R3/Group-94.png" />
             </div>
             <div className="col-lg-5 d-flex flex-column align-items-end min-vh-100">
                 <div className="px-lg-5 py-lg-4 p-4 w-100 align-self-center">

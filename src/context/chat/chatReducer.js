@@ -20,8 +20,8 @@ export const chatReducer = ( state, action ) => {
 
             }
         case types.nuevoMensaje:
-            if ( state.chatActivo === action.payload.de ||
-                state.chatActivo === action.payload.para
+            if ( state.chatActivo === action.payload.de._id ||
+                state.chatActivo === action.payload.para._id
                 ) {
                 return {
                     ...state,

@@ -28,7 +28,7 @@ export const Messages = () => {
 
                 {
                     chatState.mensajes.map( msg => (
-                        ( msg.para === auth.uid )
+                        ( msg.para._id === auth.uid )
                             ? <IncomingMessage key={ msg._id } msg={ msg } />
                             : <OutgoingMessage key={ msg._id } msg={ msg } />
                     ))

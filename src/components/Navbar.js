@@ -8,8 +8,8 @@ export const Navbar = () => {
         <nav className="navbar navbar-dark">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">
-                            <img src="https://i.ibb.co/1KqkKvW/Oval-1.png" alt="" width="50" height="50" class="d-inline-block align-text-top"/>
-                            { auth.name }
+                            <img src={ auth.image} alt="" width="50" height="50" class="d-inline-block align-text-top navimg"/>
+                             { auth.name }
                         </a>
 
                         <button className="btn text-danger"

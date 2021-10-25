@@ -17,7 +17,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 35%;
+    margin-top: 30%;
 }
 
 
@@ -50,7 +50,7 @@
 .msg_history {
     /* margin-left: auto;
     margin-right: auto; */
-    height: 90%;
+    height: 70%;
     width: 100%;
     overflow-y: auto;
 }
@@ -60,6 +60,11 @@
     width: 6%;
 }
 
+.outgoing_msg_img {
+    display: inline-block;
+    width: 6%;
+    float: right;
+}
 .outgoing_msg {
     overflow: hidden;
     margin: 26px 0 26px;
@@ -69,7 +74,7 @@
     display: inline-block;
     padding: 0 0 0 10px;
     vertical-align: top;
-    width: 92%;
+    width: 46%;
 }
 
 .received_withd_msg p {
@@ -158,6 +163,60 @@ div.reset {
     clear: both;
 }
 
+.Overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,.5);
+}
+
+.ContenedorModal{
+    width: 500px;
+    min-height: 100px;
+    background: #fff;
+    position:relative;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+
+.EncabezadoModal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.BotonCerrar{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    color: #1766DC;
+
+}
+
+.form-label {
+    color: #9193A6;
+    margin-left: 10%;
+}
+
+.cont1{
+    margin-left: 10%;
+}
+
+.navimg{
+    margin-left: 10%;
+}
 
 /* .nombre,.tel {
     color: black;
